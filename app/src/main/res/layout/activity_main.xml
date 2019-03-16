@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorPrimaryDark">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Galeria"
+        android:textColor="@color/colorAccent"
+        android:textSize="50sp" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="360px"
+            android:layout_height="360px"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:src="@drawable/image1" />
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="360px"
+            android:layout_height="360px"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:src="@drawable/image2" />
+
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="360px"
+            android:layout_height="360px"
+            android:layout_row="0"
+            android:layout_column="3"
+            android:src="@drawable/image3" />
+
+        <ImageView
+            android:id="@+id/image4"
+            android:layout_width="360px"
+            android:layout_height="360px"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:src="@drawable/image4" />
+
+        <ImageView
+            android:id="@+id/image5"
+            android:layout_width="360px"
+            android:layout_height="360px"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:src="@drawable/image5" />
+
+        <ImageView
+            android:id="@+id/image6"
+            android:layout_width="360px"
+            android:layout_height="360px"
+            android:layout_row="1"
+            android:layout_column="3"
+            android:src="@drawable/image6" />
+
+        <ImageView
+            android:id="@+id/image7"
+            android:layout_width="360px"
+            android:layout_height="360px"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:src="@drawable/image7" />
+
+        <ImageView
+            android:id="@+id/image8"
+            android:layout_width="360px"
+            android:layout_height="360px"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:src="@drawable/image8" />
+
+        <ImageView
+            android:id="@+id/image9"
+            android:layout_width="360px"
+            android:layout_height="360px"
+            android:layout_row="2"
+            android:layout_column="3"
+            android:src="@drawable/image9" />
+
+    </GridLayout>
+
+
+
+</LinearLayout>
